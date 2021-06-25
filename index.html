@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+<title></title>
+</head>
+
+<body>
+    <h1> Tic-Tac-Toe</h1>
+
+    <div id="buttonHolder">
+        <button id="newGame" onclick="gameBoard.newGame()">New Game</button>
+        <button id="reset" onclick="gameBoard.reset()">Reset</button>
+    </div>
+
+    <div id=newGame>
+
+    </div>
+
+    <table id="board">
+        <tr>
+            <th id="blockOne" onclick="gameBoard.editBlock('blockOne')"></th>
+            <th id="blockTwo" onclick="gameBoard.editBlock('blockTwo')"></th>
+            <th id="blockThree" onclick="gameBoard.editBlock('blockThree')"></th>
+        </tr>
+        <tr>
+            <th id="blockFour" onclick="gameBoard.editBlock('blockFour')"></th>
+            <th id="blockFive" onclick="gameBoard.editBlock('blockFive')"></th>
+            <th id="blockSix" onclick="gameBoard.editBlock('blockSix')"></th>
+        </tr>
+        <tr>
+            <th id="blockSeven" onclick="gameBoard.editBlock('blockSeven')"></th>
+            <th id="blockEight" onclick="gameBoard.editBlock('blockEight')"></th>
+            <th id="blockNine" onclick="gameBoard.editBlock('blockNine')"></th>
+        </tr>
+    </table>
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>
